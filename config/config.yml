@@ -1,0 +1,14 @@
+scraping:
+  max_depth: 3
+  concurrent_requests: 16
+  download_delay: 1
+
+email_validation:
+  exclude_domains:
+    - "gmail.com"
+    - "outlook.com"
+    - "hotmail.com"
+
+api:
+  host: "0.0.0.0"
+  port: 8000
